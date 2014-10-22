@@ -1,3 +1,9 @@
+# Ignore output sound files
+*.au
+
+# IPython creates intermediate checkpoints
+.ipynb_checkpoints
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
