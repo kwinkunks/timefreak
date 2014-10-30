@@ -10,20 +10,20 @@ The workshop was inspired by the paper by Tary, Herrera, Han, and van der Bann i
 
 ## Notebooks
 
-- **basics** &mdash; Some basic signals and their spectrums, illustrating some points about sampling, support, and windowing.
-- **spectrograms** &mdash; Exploring `pyplot.specgram`, a basic STFT implementation in `matplotlib`. Reproduces the STFTs from Tary et al. 2014.
-- **stft** &mdash; Since `pyplot.specgram` doesn't give you access to the innards of the STFT, and also doesn't have an inverse, here's a simple version complete with an inverse STFT. Also includes a demo of `PyTFD`, a module I found but haven't really tested yet.
-- **fst** &mdash; The fast S-transform from the PyGFT package by workers at the University of Calgary. Some nice results, I think. Reproducing figures from Naghidzadeh & Innanen 2011.
-- **cwt** &mdash; An unsuccessful test of `scipy.signal.cwt`, and a more successful go with Roger Fearick's `pycwt` module.
-- **dwt** &mdash; A go at `pywt`, which turns out to be fairly low-level and not that easy to get a scalogram (let alone a spectrogram) from.
+- **[basics](http://nbviewer.org/github/kwinkunks/timefreak/blob/master/basics.ipynb)** &mdash; Some basic signals and their spectrums, illustrating some points about sampling, support, and windowing.
+- **[spectrograms](http://nbviewer.org/github/kwinkunks/timefreak/blob/master/spectrograms.ipynb)** &mdash; Exploring `pyplot.specgram`, a basic STFT implementation in `matplotlib`. Reproduces the STFTs from Tary et al. 2014.
+- **[stft](http://nbviewer.org/github/kwinkunks/timefreak/blob/master/stft.ipynb)** &mdash; Since `pyplot.specgram` doesn't give you access to the innards of the STFT, and also doesn't have an inverse, here's a simple version complete with an inverse STFT. Also includes a demo of `PyTFD`, a module I found but haven't really tested yet.
+- **[fst](http://nbviewer.org/github/kwinkunks/timefreak/blob/master/fst.ipynb)** &mdash; The fast S-transform from the PyGFT package by workers at the University of Calgary. Some nice results, I think. Reproducing figures from Naghidzadeh & Innanen 2011.
+- **[cwt](http://nbviewer.org/github/kwinkunks/timefreak/blob/master/cwt.ipynb)** &mdash; An unsuccessful test of `scipy.signal.cwt`, and a more successful go with Roger Fearick's `pycwt` module.
+- **[dwt](http://nbviewer.org/github/kwinkunks/timefreak/blob/master/dwt.ipynb)** &mdash; A go at `pywt`, which turns out to be fairly low-level and not that easy to get a scalogram (let alone a spectrogram) from.
 
 ### Dev
 Some of the notebooks are a bit (a lot) less developed, and therefore less useful.
-- **dmd** &mdash; Dynamic mode decomposition.
-- **emd** &mdash; Empirical mode decompsition. I can't get this working.  
-- **mp** &mdash; Matching pursuit. Three possiblities. None of these are working.
-- **audio** &mdash; Looking at some ways to produce and analyse audio signals with Python. I didn't get very far. I'd ignore it if I were you.
-- **cepstrum** &mdash; Exploring cepstrums and wondering about time-time representations... Totally whimsical. You should probably ignore it.
+- **[dmd](http://nbviewer.org/github/kwinkunks/timefreak/blob/master/dmd.ipynb)** &mdash; Dynamic mode decomposition.
+- **[emd](http://nbviewer.org/github/kwinkunks/timefreak/blob/master/emd.ipynb)** &mdash; Empirical mode decompsition. I can't get this working.  
+- **[mp](http://nbviewer.org/github/kwinkunks/timefreak/blob/master/mp.ipynb)** &mdash; Matching pursuit. Three possiblities. None of these are working.
+- **[audio](http://nbviewer.org/github/kwinkunks/timefreak/blob/master/audio.ipynb)** &mdash; Looking at some ways to produce and analyse audio signals with Python. I didn't get very far. I'd ignore it if I were you.
+- **[cepstrum](http://nbviewer.org/github/kwinkunks/timefreak/blob/master/cepstrum.ipynb)** &mdash; Exploring cepstrums and wondering about time-time representations... Totally whimsical. You should probably ignore it.
 
 ## Signals
 
@@ -38,13 +38,14 @@ Timefreak includes the benchmark signals of van der Bann, Tary, et al. It's not 
 
 ## To do
 
-- Test `stft.ipynb` > `istft`
 - Test `stft.ipynb` > `pytfd`
 - `stft.ipynb` > Gabor uncertainty
+- complex representations with color
+- a synthetic benchmark
 
 ## Requirements
 
-Some of the notebooks can be run with the basic IPython stack, including Python 2.7, NumPy, SciPy, and so on. Some others depend on single-file modules that are included here. Still others depend on libraries that you must install. And some of those depend on other, non-Python libraries, such as FFTW. I ahve tried to document the requirements as they come up in the notebooks. 
+Some of the notebooks can be run with the basic IPython stack, including Python 2.7, NumPy, SciPy, and so on. Some others depend on single-file modules that are included here. Still others depend on libraries that you must install. And some of those depend on other, non-Python libraries, such as FFTW. I have tried to document the requirements as they come up in the notebooks. 
 
 For sure you will need [FFTW, version 3.3+](http://www.fftw.org), so you might as well just install it.
 
