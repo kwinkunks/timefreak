@@ -19,6 +19,9 @@ The workshop was inspired by the paper by Tary, Herrera, Han, and van der Bann i
 
 ### Dev
 Some of the notebooks are a bit (a lot) less developed, and therefore less useful.
+- **dmd** &mdash; Dynamic mode decomposition.
+- **emd** &mdash; Empirical mode decompsition. I can't get this working.  
+- **mp** &mdash; Matching pursuit. Three possiblities. None of these are working.
 - **audio** &mdash; Looking at some ways to produce and analyse audio signals with Python. I didn't get very far. I'd ignore it if I were you.
 - **cepstrum** &mdash; Exploring cepstrums and wondering about time-time representations... Totally whimsical. You should probably ignore it.
 
