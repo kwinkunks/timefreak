@@ -25,7 +25,7 @@ Some of the notebooks are a bit (a lot) less developed, and therefore less usefu
 - **[audio](http://nbviewer.org/github/kwinkunks/timefreak/blob/master/audio.ipynb)** &mdash; Looking at some ways to produce and analyse audio signals with Python. I didn't get very far. I'd ignore it if I were you.
 - **[cepstrum](http://nbviewer.org/github/kwinkunks/timefreak/blob/master/cepstrum.ipynb)** &mdash; Exploring cepstrums and wondering about time-time representations... Totally whimsical. You should probably ignore it.
 
-###Random
+### Random
 - **[images](http://nbviewer.org/github/kwinkunks/timefreak/blob/master/images.ipynb)** &mdash; Applying some perturations to images. None of this really has anything to do with t-f analysis.
 
 
