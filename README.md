@@ -1,5 +1,7 @@
 # timefreak
 
+:warning: **There are some fun notebooks here but you might also like [this repo](https://github.com/seg/tutorials-2018/tree/master/1806_Time-frequency) which definitely has much better versions of the signal data in this repo.**
+
 **Timefreak** is a set of IPython notebooks that explore questions in time-frequency analysis, especially as it pertains to seismic geophysics.
 
 Feedback, suggestions, and pull requests will be gratefully received. Fork and enjoy!
